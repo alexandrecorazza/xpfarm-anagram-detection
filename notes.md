@@ -19,7 +19,7 @@ Examples
 - The first input need to be a anagram from the second one
 - Anagrams are case insensitive
 
-# Podmodoro 1 🍅:
+# Pomodoro 1 🍅:
 Driver: Alexandre
 Navigator: João
 
@@ -27,4 +27,10 @@ Navigator: João
 
 2. Continuing, we write a second test, to check the parameters is NOT a anagram ✅ done
 
-3. 
+3. To start to implement the logic, we write another test to check if the input is an anagram 🚧 WIP
+
+# Pomodoro 2 🍅:
+Driver: João
+Navigator: Alexandre
+
+1. To start to implement the logic, we write another test to check if the input is an anagram ✅ done

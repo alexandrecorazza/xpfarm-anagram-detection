@@ -1,8 +1,15 @@
 const anagram = (firstStg, secondStg) => {
-  if (firstStg === 'foefet' && secondStg === 'toffee')
-    return true;
-  else
+  firstStg = firstStg.toLowerCase()
+
+  secondStg = secondStg.toLowerCase()
+  secondStg = [...secondStg]
+
+  if (firstStg.length != secondStg.length)
     return false;
+  else
+    for (let i = 0; i < firstStg.length; i++) {
+      return secondStg.includes(firstStg[i])
+    }
 };
   
 module.exports = {

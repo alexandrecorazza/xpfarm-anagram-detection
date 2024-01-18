@@ -7,3 +7,7 @@ test("should return true if 'foefet' is anagram of 'toffee'", () => {
 test("should return false if 'Buckethead' is not anagram of 'DeathCubeK'", () => {
     expect(anagram('Buckethead', 'Anything')).toBe(false);
 })
+
+test("should return true if 'Listen' is a anagram of 'Silent'", () => {
+    expect(anagram('Listen', 'Silent')).toBe(true);
+})
