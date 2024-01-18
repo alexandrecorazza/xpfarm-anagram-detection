@@ -1,6 +1,7 @@
-const myFunction = () => {
+const anagram = () => {
+  return true;
 };
   
 module.exports = {
-  myFunction,
+  anagram,
 };

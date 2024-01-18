@@ -4,22 +4,23 @@
 ✅ done 🚧 WIP ❌ ERROR
 
 **Example**
-TODO: Your task is to write a function called validSpacing() which checks if a string has valid spacing. The function should return either true or false.
+An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
 
-* 'Hello world'   => true
-* ' Hello world'  => false
-* 'Hello world  ' => false
-* 'Hello  world'  => false
-* 'Hello'         => true
+Note: anagrams are case insensitive
 
-Even though there are no spaces, it is still valid because none are needed:
-* 'Helloworld'    => true
-* 'Helloworld '   => false
-* ' '             => false
-* ''              => true
+Complete the function to return true if the two arguments given are anagrams of each other; return false otherwise.
+
+Examples
+"foefet" is an anagram of "toffee"
+
+"Buckethead" is an anagram of "DeathCubeK"
+
+# Domains:
+- The first input need to be a anagram from the second one
+- Anagrams are case insensitive
 
 # Podmodoro 1 🍅:
-Driver: Fulano
-Navigator: Ciclano
+Driver: Alexandre
+Navigator: João
 
-1. The function must recever a paramether 🚧
+1. To start, we write a initial test, using the example from the Kata description `"foefet" is an anagram of "toffee"` ✅ done
