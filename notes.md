@@ -24,3 +24,7 @@ Driver: Alexandre
 Navigator: João
 
 1. To start, we write a initial test, using the example from the Kata description `"foefet" is an anagram of "toffee"` ✅ done
+
+2. Continuing, we write a second test, to check the parameters is NOT a anagram ✅ done
+
+3. 
